@@ -8,7 +8,7 @@ const createRows = ({name,image,id,current_price,market_cap,price_change_percent
    <td>${current_price}</td>
    <td>$ ${market_cap}</td>
    <td>${price_change_percentage_24h ?price_change_percentage_24h:"0"} %</td>
-   <td>$ ${total_supply?total_supply:"0"}</td>
+   <td> ${total_supply?total_supply:"0"}</td>
 </tr>`
 }
 
